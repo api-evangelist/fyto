@@ -1,8 +1,25 @@
 aid: fyto
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fyto.png
 name: Fyto
-description: 'Fyto is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Fyto is a Bay Area agricultural cleantech and robotics company, founded in 2019
+  by Jason Prapas with MIT origins, that builds automated cultivation systems for lemna
+  — fast-growing aquatic "superplants" in the duckweed family. Its ReCover process, GrowGrid
+  raised growbeds, and autonomous Harvester machine capture excess nutrients from dairy and
+  livestock operations and convert them into high-protein animal feed, cutting nitrate pollution
+  and greenhouse-gas emissions without arable land, synthetic fertilizer, or manual labor. Backed
+  by GV, Fyto is scaling regenerative farming from California''s San Joaquin Valley. No public API,
+  developer portal, SDK, or documentation is currently published.'
 url: https://raw.githubusercontent.com/api-evangelist/fyto/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Frontier Tech
+- Agriculture
+- AgTech
+- Robotics
+- Sustainability
+- Cleantech
+- Animal Feed
+- Dairy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +48,13 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: fyto.us
+  url: https://www.fyto.us
+- type: Blog
+  url: https://www.fyto.us/news
+- type: DomainSecurity
+  url: security/fyto-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
